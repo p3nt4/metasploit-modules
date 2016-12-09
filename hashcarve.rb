@@ -93,7 +93,7 @@ class MetasploitModule < Msf::Post
             raise $!
             
             rescue ::Exception => e
-            	print_error("Error: #{e.class} #{e} #{e.backtrace}")
+            	print_error("Error: #{e}")
         end
     end
     
