@@ -213,7 +213,7 @@ class MetasploitModule < Msf::Post
                 str << (bits.count('1').even? ? '1' : '0')  # parity
             end
             keys << [str].pack('B*')
-            end
+        end
         keys
     end
 end
