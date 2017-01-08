@@ -1,3 +1,5 @@
+https://github.com/rapid7/metasploit-framework/blob/master/modules/post/windows/manage/run_as_psh.rb
+
 ## Overview
 This module will start a process as another user using powershell.
 By default, it will start an interactive cmd as the target user.
